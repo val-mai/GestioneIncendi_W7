@@ -1,9 +1,9 @@
-package com.epicode.incendi.subject;
+package com.epicode.incendi.sonda;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.epicode.incendi.listeners.Observer;
+import com.epicode.incendi.centrocontrollo.Observer;
 
 public abstract class Subject {
 

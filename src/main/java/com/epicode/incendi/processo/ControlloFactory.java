@@ -1,6 +1,6 @@
-package com.epicode.incendi.listeners;
+package com.epicode.incendi.processo;
 
-import com.epicode.incendi.subject.SondaDto;
+import com.epicode.incendi.sonda.SondaDto;
 
 public interface ControlloFactory {
 

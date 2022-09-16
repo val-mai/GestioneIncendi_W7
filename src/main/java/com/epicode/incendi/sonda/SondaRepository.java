@@ -1,4 +1,4 @@
-package com.epicode.incendi.subject;
+package com.epicode.incendi.sonda;
 
 import org.springframework.data.repository.CrudRepository;
 

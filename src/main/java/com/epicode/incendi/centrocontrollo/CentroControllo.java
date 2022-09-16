@@ -1,13 +1,14 @@
-package com.epicode.incendi.listeners;
+package com.epicode.incendi.centrocontrollo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import com.epicode.incendi.subject.Sonda;
-import com.epicode.incendi.subject.SondaDto;
-import com.epicode.incendi.subject.Subject;
+import com.epicode.incendi.processo.ProcessoControlloProxy;
+import com.epicode.incendi.sonda.Sonda;
+import com.epicode.incendi.sonda.SondaDto;
+import com.epicode.incendi.sonda.Subject;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
