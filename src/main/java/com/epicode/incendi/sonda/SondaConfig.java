@@ -27,4 +27,15 @@ public class SondaConfig {
 		repo.save(s);
 		return s;
 	}
+	
+	@Bean(name = "sondaTest")
+	public Sonda newSondaTest() {
+		Sonda s = new Sonda();
+		s.setLatitudine(55.5);
+		s.setLongitudine(30.5);
+		repo.save(s);
+		return s;
+	}
+	
+	
 }

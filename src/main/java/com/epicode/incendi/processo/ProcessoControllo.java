@@ -4,6 +4,6 @@ import com.epicode.incendi.sonda.SondaDto;
 
 public interface ProcessoControllo {
 
-	public void rilevaIncendio(SondaDto dto, String name);
+	public SondaDto rilevaIncendio(SondaDto dto, String name);
 	
 }
